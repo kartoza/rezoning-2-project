@@ -42,4 +42,5 @@ nav:
           - Github Issues: workflow/Github_issues.md
     - Development:
           - Home: development/index.md
+          - Frontend Building: development/building_the_frontend.md
           - Infrastructure documentation: development/infrastructure_docs.md
