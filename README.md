@@ -7,7 +7,7 @@
 
 - Browse the website at: [Rezoning technical docs](https://kartoza.github.io/rezoning-2-project/)
 
-- View on the browser using the following commands:
+- View on the browser locally using the following commands:
 
 ```
 cd ./docs
