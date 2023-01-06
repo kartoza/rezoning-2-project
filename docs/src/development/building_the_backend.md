@@ -8,13 +8,9 @@ The API of rezoning contains 2 parts: the rezoning api and the export function. 
 ```sh
 localstack start -d
 ```
-- Create the SQS bucket in localstack:
+- Create the SQS queue in localstack:
 ```
 aws sqs create-queue --queue-name export-queue --endpoint-url=http://localhost:4566/
-```
-- Create the export bucket needed to store export calculation results:
-```sh
-aws s3 mb s3://rezoning-exports --endpoint-url=http://localhost:4566/
 ```
 - Create the export bucket used to communicate the exporting requests between the API and the export function:
 ```sh
