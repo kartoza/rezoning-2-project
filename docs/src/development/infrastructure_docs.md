@@ -6,12 +6,12 @@ The software has 2 main parts:
 - The code's repository is at [WB-rezoning-explorer](https://github.com/worldbank/WB-rezoning-explorer). 
 - The front end uses [MapBox](https://www.mapbox.com/) to display the map.
 
-## The backend: 
+## The backend
 - The backend of the application providing access to a list of API calls that can be explored at [API-docs](https://d2b8erzy6y494p.cloudfront.net/docs)
 - The backend's code is at [WB-rezoning-explorer-api](https://github.com/worldbank/WB-rezoning-explorer-api)
 
 
-## Backend architecture:
+## Backend architecture
 
 Depending on the API calls made, some different parts of the infrastructure will be triggered
 
@@ -25,11 +25,11 @@ Will do same calculations on an area using data stored in the data S3 bucket.
 - Layers endpoint:
 Will return the list of layers or a tile from that layer. 
 
-## Additional dependencies:
+## Additional dependencies
 - Airtable: A table that stores IRENA dataset needed by the application.
 - [vector tile server](reztileserver.com): Some vector tile layers are hosted in this address. 
 
-## Software componenets:
+## Software componenets
 - Frontend app server.
 - Backend api server.
 - AWS SQS queue.
