@@ -5,7 +5,7 @@ docs_dir: ./src
 site_dir: ./site
 repo_name: "REZoning Documentation"
 repo_url: "https://github.com/kartoza/rezoning-2-project"
-edit_uri: "https://github.com/kartoza/rezoning-2-project/blob/main/docs/"
+edit_uri: "https://github.com/kartoza/rezoning-2-project/blob/main/docs/src/"
 copyright: Kartoza and Contributors
 
 markdown_extensions:
