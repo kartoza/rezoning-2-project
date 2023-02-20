@@ -7,10 +7,20 @@
 
 - Browse the website at: [Rezoning technical docs](https://kartoza.github.io/rezoning-2-project/)
 
+
+# Building locally:
+
+- Assuming that you have python3 installed, run the following commands to install necessary modules:
+```
+pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-material-extensions
+```
+
 - View on the browser locally using the following commands:
 
 ```
 cd ./docs
 ./create-mkdocs-html-config.sh
-python -m mkdocs serve
+python3 -m mkdocs serve
 ```
