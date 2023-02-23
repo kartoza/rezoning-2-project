@@ -1,16 +1,16 @@
 # rezoning-2-project
 
-- Technical documentation site for development of the second version of [Rezoning](https://rezoning.energydata.info/).
+- Technical documentation site for the development of the second version of [Rezoning](https://rezoning.energydata.info/).
 - The code for rezoning is available at:
-    - Backend: [rezoning-explorer-api](https://github.com/worldbank/WB-rezoning-explorer-api)
-    - Frontend: [rezoning-explorer](https://github.com/worldbank/WB-rezoning-explorer)
+    - Backend: [Rezoning Explorer Api](https://github.com/worldbank/WB-rezoning-explorer-api)
+    - Frontend: [Rezoning Explorer](https://github.com/worldbank/WB-rezoning-explorer)
 
-- Browse the website at: [Rezoning technical docs](https://kartoza.github.io/rezoning-2-project/)
+- Browse the website at [Rezoning Technical Docs](https://kartoza.github.io/rezoning-2-project/)
 
 
-# Building locally:
+# Building locally
 
-- Assuming that you have python3 installed, run the following commands to install necessary modules:
+- Assuming that you have python3 installed, run the following commands to install the necessary modules:
 ```
 pip install mkdocs
 pip install mkdocs-material

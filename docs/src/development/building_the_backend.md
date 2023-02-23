@@ -1,9 +1,9 @@
 ## How to run the backend locally
 
-The API of rezoning contains 2 parts: the rezoning api and the export function. Each need to be ran individually. But before running any of the 2, localstack needs to be running.
+The API of rezoning contains 2 parts: the rezoning API and the export function. Each needs to be run individually. But before running any of the 2, Localstack needs to be running.
 
-## Clone repo & checkout to development branch:
-First you need to fetch the source code for the backend using the following command:
+## Clone repo & checkout to the development branch:
+First, you need to fetch the source code for the backend using the following command:
 ```
 git clone https://github.com/worldbank/WB-rezoning-explorer-api.git
 ```
@@ -15,8 +15,8 @@ Using the current development branch (the main branch contains the production co
 ```
 git checkout develop_belgacem
 ```
-## Running localstack:
-- Make sure you have localstack setup by following instructions from [LocalStack CLI offical install instruction](https://docs.localstack.cloud/getting-started/installation/#localstack-cli)
+## Running Localstack:
+- Make sure you have Localstack setup by following instructions from [Localstack's CLI official install instruction](https://docs.localstack.cloud/getting-started/installation/#localstack-cli)
 - Start LocalStack in the background: 
 ```sh
 localstack start -d
@@ -25,12 +25,12 @@ localstack start -d
 - One common problem might happen with permissions, here is an article on how to fix it https://dhananjay4058.medium.com/solving-docker-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket-2e53cccffbaa
 
 
-- Install aws cli tool:
+- Install AWS CLI tool:
     - Install AWS CLI tools by following instructions from: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-    - Check if aws cli was installed correctly using ```aws --version```: this will display the version of the installed aws-cli toolchain.
+    - Check if AWS CLI was installed correctly using ```aws --version```: this will display the version of the installed AWS-CLI toolchain.
 
 
-- Create the SQS queue in localstack:
+- Create the SQS queue in Localstack:
 ```
 aws sqs create-queue --queue-name export-queue --endpoint-url=http://localhost:4566/
 ```
@@ -40,9 +40,9 @@ aws s3 mb s3://rezoning-exports --endpoint-url=http://localhost:4566/
 ```
 
 ## Running Rezoning API:
-In order to work with Rezoning locally, you need AWS access to the processed data (Currently around 330Gb of data) and a certain Airtable. 
+To work with Rezoning locally, you need AWS access to the processed data (Currently around 330Gb of data) and a certain Airtable. 
 
-- You can do this by setting the follwing envirnment variables:
+- You can do this by setting the following environment variables:
 ```sh
 export AIRTABLE_KEY=<%AIRTABLE_KEY> AWS_ACCESS_KEY_ID=<%AWS_ACCESS_KEY_ID> AWS_SECRET_ACCESS_KEY=<%AWS_SECRET_ACCESS_KEY>
 ```
@@ -55,7 +55,7 @@ aws s3 cp s3://gre-processed-data/ ~/rezoning-data/
 ```
 
 - Optional:
-To work with the local data, the following envirnment variables need to be set:
+To work with the local data, the following environment variables need to be set:
 ```sh
 export REZONING_IS_LOCAL_DEV=True
 export REZONING_LOCAL_DATA_PATH=<%YOUR_DATA_PATH>
