@@ -1,5 +1,5 @@
 # Development
 
-Everything about the development and infrastructure of the REZoning software is documented in a reputable manner to ensure future developers can re-produce and execute the necessary work required. 
+In this section we describt the development and infrastructure of the REZoning software.
 
-By selecting the links from the left users can navigate to the specific section required to replicate the development environment.
+By selecting the links from the left you can navigate to the specific section required to replicate the development environment.
