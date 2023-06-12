@@ -1,6 +1,6 @@
-# # Workflow 
+# Workflow 
 Development of REZoning 2 is documented on the [REZ Zoning 2 GitHub board](https://github.com/orgs/kartoza/projects/20) to acknowledge changes and work done to the platform. All developments of the platform are recorded in this format, most notably the conventions of adding features and the feature validation process.  
-#  
+
 ## Overview 
 The development workflow is run in sprints on the [GitHub board](https://github.com/orgs/kartoza/projects/20). When tickets have been created and allocated sprints are planned and executed to ensure major parts of the development are achieved when they are needed and development of the product remains on track. 
 
